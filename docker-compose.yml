@@ -9,7 +9,7 @@ services:
       - api
       - frontend
     restart: always
-
+ 
   frontend:
     build: frontend
     ports:
